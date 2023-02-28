@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+</head>
+
+<body>
+
+    <!--marksheet percentage code-->
+
+    <script>
+        var a = prompt("Enter your percentage");
+
+        if (a >= 90 && a <= 100) {
+            document.write("You Got A-one Grade");
+        } else if (a >= 80 && a <= 89) {
+            document.write("You Got A Grade");
+        } else if (a >= 70 && a <= 79) {
+            document.write("You Got B+ Grade");
+        } else if (a >= 60 && a <= 69) {
+            document.write("You Got B Grade");
+        } else if (a >= 50 && a <= 59) {
+            document.write("You Got C Grade");
+        } else if (a >= 40 && a <= 49) {
+            document.write("You Got D Grade");
+        } else if (a >= 0 && a <= 39) {
+            document.write("You Are Fail");
+        } else {
+            document.write("Not Valid");
+        }
+
+    </script>
+
+
+    <!--guees number code-->
+
+    <script>
+        var a = +prompt("guess a secret number (1 to 10) in 1 attempt");
+        if (a === 6 + 1) {
+            alert("Wow, You Guess Correctly");
+        } else {
+            alert("Close enough to the correct answer");
+        }
+    </script>
+
+    <!--temperature code-->
+
+    <script>
+        var t = prompt("Enter Temperature");
+
+        if (t >= 40) {
+            alert("It is too hot outside.");
+        } else if (t >= 30) {
+            alert("The Weather today is Normal.");
+        } else if (t >= 20) {
+            alert("Today’s Weather is cool.");
+        } else if (t >= 10) {
+            alert("OMG! Today’s weather is so Cool.");
+        } else {
+            alert("not valid");
+        }
+    </script>
+
+    <!--calculator code-->
+
+    <script>
+        var a = +prompt("Enter First Number");
+        var b = +prompt("Enter Second Number");
+
+        var ope = prompt("Enter Operator");
+
+        if (ope === "+") {
+            alert(a + b);
+        } else if (ope === "-") {
+            alert(a - b);
+        } else if (ope === "*") {
+            alert(a * b);
+        } else if (ope === "/") {
+            alert(a / b);
+        } else {
+            alert("false");
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
